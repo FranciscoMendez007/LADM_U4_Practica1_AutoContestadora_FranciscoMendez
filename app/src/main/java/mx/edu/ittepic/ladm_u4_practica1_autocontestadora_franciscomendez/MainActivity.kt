@@ -122,7 +122,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun leerSMSEntrada() {
         var cursor = contentResolver.query(
-            Uri.parse("content://SMS/"),
+            Uri.parse("content://sms/"),
             null,null,null,null
         )
         var resultado = ""
